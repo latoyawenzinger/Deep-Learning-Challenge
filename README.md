@@ -2,12 +2,13 @@
 
 A machine learning tool was created for a nonprofit foundation, Alphabet Soup, to determine if future applicants will be successful if funded. 
 
-**Overview**:
+## **Overview**:
+
 The purpose of this analysis is to take a look at the performance of the deep learning model that was created. It will explain the thought process behind data processing, training, and optimizing techninques used to enhance the model. 
 
-Results: Using bulleted lists and images to support your answers, address the following questions:
+## **Results**
 
- **Data Preprocessing**:
+### **Data Preprocessing**:
 
 * Target Variable: 
   * 'IS_SUCCESSFUL' - was the money used successfully (0 or 1)
