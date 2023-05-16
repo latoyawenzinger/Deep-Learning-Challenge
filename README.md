@@ -13,18 +13,20 @@ The purpose of this analysis is to take a look at the performance of the deep le
 * Target Variable: 
   * 'IS_SUCCESSFUL' - was the money used successfully (0 or 1)
 * Feature Variables: 
-  * AFFILIATION—Affiliated sector of industry
-  * CLASSIFICATION—Government organization classification
-  * USE_CASE—Use case for funding
-  * ORGANIZATION—Organization type
-  * STATUS—Active status
-  * INCOME_AMT—Income classification
-  * SPECIAL_CONSIDERATIONS—Special considerations for application
-  * ASK_AMT—Funding amount requested
-* What variable(s) should be removed from the input data because they are neither targets nor features?
+  * AFFILIATION — Affiliated sector of industry
+  * CLASSIFICATION — Government organization classification
+  * USE_CASE — Use case for funding
+  * ORGANIZATION — Organization type
+  * STATUS — Active status
+  * INCOME_AMT — Income classification
+  * SPECIAL_CONSIDERATIONS — Special considerations for application
+  * ASK_AMT — Funding amount requested
+  
+* Removed Data:
+ * EIN and NAME — Identification columns
 
 
-**Compiling, Training, and Evaluating the Model**:
+## **Compiling, Training, and Evaluating the Model**:
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
