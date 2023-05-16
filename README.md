@@ -23,7 +23,7 @@ The purpose of this analysis is to take a look at the performance of the deep le
   * ASK_AMT — Funding amount requested
   
 * Removed Data:
- * EIN and NAME — Identification columns
+  * EIN and NAME — Identification columns
 
 
 ## **Compiling, Training, and Evaluating the Model**:
