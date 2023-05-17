@@ -29,10 +29,16 @@ The purpose of this analysis is to take a look at the performance of the deep le
 ## **Compiling, Training, and Evaluating the Model**:
 
 * Neurons, layers, and activation functions for the neural network model. All hidden layers use the Sigmoid activation function because the expected outputs are this model provided an accuracy score of 72%, which is close to the target model performance of 75%
+
 ![image](https://github.com/latoyawenzinger/Deep-Learning-Challenge/assets/115582691/f366a959-c02b-4577-b4d3-8d8f2f957cb5)
 ![image](https://github.com/latoyawenzinger/Deep-Learning-Challenge/assets/115582691/3e4fc1cc-55d1-4d45-8784-2c4014eb43ad)
 
+* Using 3 optimizing techniques, the model could not reach the target accuracy score of 75% or higher. The optimized model generated a higher accuracy score, although it was miniscule(+0.01%). The number of epochs was reduces from 100 to 60. 2 more hidden layers were added and more neurons were added to the layers from the original model.
 
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+![image](https://github.com/latoyawenzinger/Deep-Learning-Challenge/assets/115582691/51084f2f-7604-4e0e-a3c8-507f4f7e8a8e)
+![image](https://github.com/latoyawenzinger/Deep-Learning-Challenge/assets/115582691/d78ed617-f454-4e65-9051-2ba0f4897289)
+
+
+## **Summary**: 
+
+I think that preprocessing the features via encoding would help to optimize the model better. Using an encoder such as OneHotEncoder would convert the categorical features into numerical 'dummy' features. The new numerical features data allow the training of the model to be more efficient.
