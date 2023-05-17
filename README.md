@@ -41,4 +41,4 @@ The purpose of this analysis is to take a look at the performance of the deep le
 
 ## **Summary**: 
 
-I think that preprocessing the features via encoding would help to optimize the model better. Using an encoder such as OneHotEncoder would convert the categorical features into numerical 'dummy' features. The new numerical features data would allow the training of the model to be more efficient.
+Overall, both model were not the best at predicting the outcomes of future applicants if funded. Both model could not reach the 75% accuracy. I think that preprocessing the features via encoding would help to optimize the model better. Using an encoder such as OneHotEncoder would convert the categorical features into numerical 'dummy' features. The new numerical features data would allow the training of the model to be more efficient.
