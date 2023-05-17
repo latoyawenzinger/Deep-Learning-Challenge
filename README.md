@@ -28,7 +28,7 @@ The purpose of this analysis is to take a look at the performance of the deep le
 
 ## **Compiling, Training, and Evaluating the Model**:
 
-* Neurons, layers, and activation functions for the neural network model. All hidden layers use the Sigmoid activation function because the expected outputs are this model provided an accuracy score of 72%, which is close to the target model performance of 75%
+* Neurons, layers, and activation functions for the neural network model: All hidden layers use the Sigmoid activation function which provided an accuracy score of 72%, which is close to the target model performance of 75%
 
 ![image](https://github.com/latoyawenzinger/Deep-Learning-Challenge/assets/115582691/f366a959-c02b-4577-b4d3-8d8f2f957cb5)
 ![image](https://github.com/latoyawenzinger/Deep-Learning-Challenge/assets/115582691/3e4fc1cc-55d1-4d45-8784-2c4014eb43ad)
